@@ -4,7 +4,7 @@ date: 2021-01-08
 tags:
   - Catechesis
 ---
-Starting in January, we will begin a new pattern in the preaching at Sojourners. On the last Sunday of every month, we will preach a question and answer from the [New City Catechism](http://newcitycatechism.com/).
+Starting in January, we will begin a new pattern in the preaching at Trinity. On the last Sunday of every month, we will preach a question and answer from the [New City Catechism](http://newcitycatechism.com/).
 
 ## What is a catechism?
 

@@ -4,7 +4,7 @@ date: 2025-04-06
 series: src/content-collections/series/revelation-living-in-the-valley-between-the-victories.md
 scripture:
   - Rev.17
-preacher: src/content-collections/preachers/tyler-mykkanen.md
+preacher: src/content-collections/preachers/amosmizondiwa.md
 mediaURL: https://open.spotify.com/episode/1jI6Tq7olYp06Dtd59AZ8D?si=9b7cca8551dc43a1
 ---
 
