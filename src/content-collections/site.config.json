@@ -10,12 +10,12 @@
   },
   "body": {
     "hero": {
-      "text": "<span class='opacity-40'>Welcome to</span><span class='text-primary'> Trinity Church</span><span class='opacity-40'> Pakuranga</span>",
+      "text": "<span class='opacity-40'>Welcome to </br></span><span class='text-primary'> Trinity Church</span><span class='opacity-40'> </br>Pakuranga</span>",
       "bgImage": "src/assets/hero-bg.jpg"
     },
     "cta": {
       "text": "10 am Sundays | Click here for livestream",
-      "link": "http://youtube.com/channel/UC5HBSGOC-FxOa3-ERY5X6mw/live"
+      "link": "https://www.youtube.com/@trinitypakuranga2019/videos"
     }
   },
   "footer": {
@@ -32,29 +32,19 @@
       ],
       "social": [
         {
-          "name": "Facebook",
-          "icon": "simple-icons:facebook",
-          "link": "https://www.facebook.com/TrinityMN"
-        },
-        {
           "name": "Youtube",
           "icon": "simple-icons:youtube",
           "link": "https://www.youtube.com/@Trinitychurch7048"
-        },
-        {
-          "name": "Spotify",
-          "icon": "simple-icons:spotify",
-          "link": "https://open.spotify.com/show/4XUQE1mKNoKG2r4Ovr7FoQ?si=18866bd4d2b84a06"
         }
       ]
     },
     "form": {
-      "isActive": true,
+      "isActive": false,
       "heading": "Weekly Bulletin",
       "description": "Sign up to stay informed and connected to Trinity Church weekly happenings."
     },
     "give": {
-      "isActive": true,
+      "isActive": false,
       "heading": "Give to Trinity Church",
       "description": "Click below to set up a one time or recurring gift to Trinity Church.",
       "link": "https://get.tithe.ly/"
