@@ -2,7 +2,7 @@
   "general": {
     "name": "Trinity Church Pakuranga",
     "description": "Practical compassion arising from an inclusive Christian ethos, within the Methodist tradition.",
-    "youtube": "https://www.youtube.com/@Trinitychurch7048"
+    "youtube": "https://www.youtube.com/@TrinityChurchPakuranga"
   },
   "header": {
     "displayTitle": true,
@@ -15,7 +15,7 @@
     },
     "cta": {
       "text": "10 am Sundays | Click here for livestream",
-      "link": "https://www.youtube.com/@trinitypakuranga2019/videos"
+      "link": "https://www.youtube.com/@TrinityChurchPakuranga/streams"
     }
   },
   "footer": {
@@ -34,7 +34,7 @@
         {
           "name": "Youtube",
           "icon": "simple-icons:youtube",
-          "link": "https://www.youtube.com/@Trinitychurch7048"
+          "link": "https://www.youtube.com/@TrinityChurchPakuranga"
         }
       ]
     },
