@@ -1,5 +1,5 @@
 ---
-title: Forgiveness
+title: Gift of fatherhood
 date: 2020-09-06
 series: src/content-collections/series/gift-of-fatherhood.md
 scripture:
