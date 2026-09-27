@@ -6,7 +6,7 @@ scripture:
   - Genesis.28.10-Genesis.28.19
   - Matthew.13.24-Matthew.13.30
   - Matthew.13.36-Matthew.13.43
-preacher: src/content-collections/preachers/amosmizondiwa.md
+preacher: src/content-collections/preachers/amosmuzondiwa.md
 mediaURL: https://www.youtube.com/watch?v=ww0l5j3IXzc
 bulletinURL: https://drive.google.com/file/d/1aJKhmYa83PEnDHMVk_yzdmxxTvTCGIaW/view
 ---
