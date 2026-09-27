@@ -1,16 +1,17 @@
 {
-  "general": {
+  "general": 
+  {
     "name": "Trinity Church Pakuranga",
     "description": "Practical compassion arising from an inclusive Christian ethos, within the Methodist tradition.",
     "youtube": "https://www.youtube.com/@TrinityChurchPakuranga"
   },
   "header": {
     "displayTitle": true,
-    "displayLogo": false
+    "displayLogo": true
   },
   "body": {
     "hero": {
-      "text": "<span class='opacity-40'>Welcome to </br></span><span class='text-primary'> Trinity Church</span><span class='opacity-40'> </br>Pakuranga</span>",
+      "text": "<span class='opacity-50'>Welcome to</span><br><span class='text-primary'>Trinity Church, Pakuranga</span><div class='mt-2 text-lg md:text-xl font-normal opacity-75'><span>Part of </span><a href='https://www.methodist.org.nz' target='_blank' class='underline underline-offset-4'>The Methodist Church of New Zealand</a></div>",
       "bgImage": "src/assets/hero-bg.jpg"
     },
     "cta": {
@@ -27,7 +28,7 @@
         },
         {
           "heading": "Contact Us",
-          "description": "<a href='mailto:notarealemail@trinitychurchpakuranga.org'>notarealemail@trinitychurchpakuranga.org</a><br /> 09 576 2407"
+          "description": "<i><a href='mailto:trinitychurchpak@gmail.com'>trinitychurchpak@gmail.com</a><br />Ph: 09 576 2407<i>"
         }
       ],
       "social": [
