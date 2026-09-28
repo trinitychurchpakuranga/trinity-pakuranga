@@ -20,10 +20,10 @@ const selectedImage = hero?.bgImage ? bgImages[imagePath] : null;
 ---
 
 <BaseLayout pageTitle="Home">
-  <main class="relative min-h-[calc(100vh-6.5rem)]">
+  <main class="relative h-[calc(100vh-6.5rem)]">
     <h1 class="sr-only">{siteConfig?.data.general.name}</h1>
     <section
-      class="grid min-h-[calc(100vh-6.5rem)] w-full bg-cover bg-right"
+      class="relative grid h-full w-full"
       aria-labelledby="hero-heading"
     >
       <!-- BACKGROUND IMG & OVERLAY -->
@@ -33,7 +33,7 @@ const selectedImage = hero?.bgImage ? bgImages[imagePath] : null;
             <Image
               src={selectedImage()}
               alt="Homepage background"
-              class="absolute inset-0 h-full w-full object-cover"
+              class="absolute inset-0 h-full w-full object-fill"
               priority
             />
             <div

@@ -31,41 +31,56 @@ const metaDescription =
   const isDark =
     colorScheme === "dark" ||
     (colorScheme === "auto" && getThemePreference() === "dark");
+
   document.documentElement.classList[isDark ? "add" : "remove"]("dark");
 </script>
 
 <html lang="en">
   <head>
-    <!-- META -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={metaDescription} />
     <link rel="sitemap" href="/sitemap-index.xml" />
 
-    <!-- FAVICON -->
     <link rel="icon" type="image/svg+xml" href={"/hero-bg.jpg"} />
 
-    <!-- TITLE -->
     <title>{metaTitle}</title>
 
-    <!-- FONTS -->
     <Font cssVariable="--font-poppins" preload />
 
-    <!-- CRITICAL CSS (ABOVE-THE-FOLD) -->
     <style>
+      html,
       body {
         margin: 0;
+        min-height: 100%;
       }
-      main,
+
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      main {
+        flex: 1;
+        min-height: 0;
+      }
+
       .hero {
-        min-height: calc(100vh - 6.5rem);
+        height: 100%;
+        min-height: 0;
       }
     </style>
   </head>
+
   <body>
     <Header />
-    <slot />
+
+    <main>
+      <slot />
+    </main>
+
     <Footer />
   </body>
 </html>
